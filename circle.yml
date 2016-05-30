@@ -1,4 +1,4 @@
 test:
   override:
   - ./gradlew assemble
-  - cp -r project-name/build/outputs $CIRCLE_ARTIFACTS
+  - cp -r CircleCIPractice/app/build/outputs $CIRCLE_ARTIFACTS
